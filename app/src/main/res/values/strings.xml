@@ -2,7 +2,7 @@
     <string name="app_name">APIProject</string>
     <string name="addData">Добавить запись</string>
     <string name="namePaste">Название</string>
-    <string name="abrasiveness">Образивность</string>
+    <string name="abrasiveness">Образив.</string>
     <string name="price">Стоимость</string>
     <string name="country_of_origin">Страна производитель</string>
     <string name="volume">Обьем</string>

@@ -89,10 +89,10 @@ public class MainActivity extends AppCompatActivity {
             intent.putExtra("Image", lvProducts.get(position).getImage());
             startActivity(intent);
         });
-
+//отображение информации идет через новый поток и метод завершается до того каак получит иноформацию, не придумал как поправить ставлю просто ждать
         new GetProducts().execute();
         try {
-            TimeUnit.MILLISECONDS.sleep(300);
+            TimeUnit.MILLISECONDS.sleep(500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
